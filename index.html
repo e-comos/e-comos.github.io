@@ -1,50 +1,98 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <link rel="stylesheet" href="/home.css" type="text/css">
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=9">
-    <meta name="viewport" content="width=device-width">
-    <title>Home - E-comOS Operation System Project</title>
-  </head>
-  <body>
-    <div class="header">
-      <ul>
-	<li><a href="https://e-comos.github.io" target="_blank">E-comOS Operation System Project</a></li>
-	<li><a class="active" href="/">Home</a></li>
-	<li><a href="/admin/">Account</a></li>
-	<li><a href="/software/">software</a></li>
-	<li><a href="/mali-list/">Mailling list</a></li>
-	<li><a href="/wiki/">wkik</a></li>
-	<li><a href="https://github.com/e-comos">Git Repo</a></li>
-      </ul>
-    </div>
-    <div class="body">
-      <div class="row">
-	<h1>E-comOS Operation System Project</h1>
-	<p>A microkernel GPOS for computers , E-comOS Operation System Project(EOSP) is supporting E-comOS's develops.</p>
-      <div class="row">
-	<div class="thirds">
-	  <h2>Getting Started</h2>
-	  <p><a href="wiki/getstart.html">Getting Started for develops</a></p>
-	  <p><a href="wiki/styleguide.html">E-comOS Code Style Guide</a></p>
-	</div>
-	<div class="thirds">
-	  <h2>Getting Started for users</h2>
-	  <p><a href="wiki/install.htm">How to install E-comOS</a></p>
-	  <p><a href="wiki/usage.html">How to use it</a></p>
-	  <p><a href="wiki/network.html">Using Network</a></p>
-	  <p><a href="software/index.html">Softwares</a></p>
-	  <p><a href="wiki/eosinstall.htm">Setup</a></p>
-	</div>
-	<div class="thirds">
-	  <h2>Join us</h2>
-	  <p><a href="https://github.com/e-comos">Git Repository</a></p>
-	  <p><a href="/mail-list/index.html">Mailing List</a></p>
-	</div>
-      </div>
-    </div>
-    <div class="cups-footer">Copyright &copy; 2026 E-comOS Operation System Project. All rights reserved.</div>
-  </body>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="E-comOS is a microkernel operating system project focused on practical, lightweight computing for capable hardware.">
+		<title>E-comOS | An operating system project</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="/home.css">
+	</head>
+	<body class="home-page">
+		<header class="site-header">
+			<a class="site-brand" href="/" aria-label="E-comOS home">
+				<img src="https://avatars.githubusercontent.com/u/239716078?s=96&v=4" alt="">
+				<span>E-comOS</span>
+			</a>
+			<nav class="site-nav" aria-label="Main navigation">
+				<a href="#projects">Projects</a>
+				<a href="/software/">Software</a>
+				<a href="https://cloudflare-wiki.saladin510.workers.dev/wiki/main:home">Wiki</a>
+				<a href="/mail-list/">Mailing lists</a>
+				<a href="https://github.com/e-comos">GitHub</a>
+				<a class="site-nav-cta" href="/mail-list/">Get involved <span aria-hidden="true">&nearr;</span></a>
+			</nav>
+		</header>
+
+		<main>
+			<section class="site-hero" aria-labelledby="hero-title">
+				<div class="site-hero-copy">
+					<p class="site-eyebrow"><span></span> E-COMOS OPERATING SYSTEM PROJECT</p>
+					<h1 id="hero-title">An OS for computers still <em>worth using.</em></h1>
+					<p class="site-intro">E-comOS is a microkernel operating system project building a practical, lightweight system for capable hardware, including machines with plenty of useful life ahead.</p>
+					<div class="site-actions">
+						<a class="button button-primary" href="/wiki/getstart.html">Getting started <span aria-hidden="true">&rarr;</span></a>
+						<a class="button button-secondary" href="https://github.com/e-comos">Browse the source <span aria-hidden="true">&nearr;</span></a>
+					</div>
+				</div>
+				<figure class="site-mark">
+					<div class="site-mark-image">
+						<img src="https://avatars.githubusercontent.com/u/239716078?s=512&v=4" alt="E-comOS project mark">
+					</div>
+					<figcaption><span>PROJECT</span><strong>Small core. Useful systems.</strong></figcaption>
+					<span class="site-mark-index" aria-hidden="true">EOSP / 01</span>
+				</figure>
+				<div class="site-hero-foot" aria-hidden="true"><span>MICROKERNEL</span><span>OPEN DEVELOPMENT</span><span>BUILT FOR REAL HARDWARE</span></div>
+			</section>
+
+			<section class="site-projects" id="projects" aria-labelledby="projects-title">
+				<div class="section-heading">
+					<p class="site-eyebrow">THE PROJECT, IN PARTS</p>
+					<h2 id="projects-title">Independent pieces.<br>One operating system.</h2>
+					<p>E-comOS is developed across focused repositories, from the kernel to the user interface.</p>
+				</div>
+				<div class="project-list">
+					<a class="project-item" href="https://github.com/e-comos/kernel">
+						<span class="project-number">01</span>
+						<span class="project-copy"><strong>Kernel</strong><small>The foundation of E-comOS.</small></span>
+						<span class="project-arrow" aria-hidden="true">&nearr;</span>
+					</a>
+					<a class="project-item" href="https://github.com/e-comos/driver">
+						<span class="project-number">02</span>
+						<span class="project-copy"><strong>Drivers</strong><small>Hardware support for the system.</small></span>
+						<span class="project-arrow" aria-hidden="true">&nearr;</span>
+					</a>
+					<a class="project-item" href="https://github.com/e-comos/RUI">
+						<span class="project-number">03</span>
+						<span class="project-copy"><strong>RUI</strong><small>The Running User Interface for E-comOS.</small></span>
+						<span class="project-arrow" aria-hidden="true">&nearr;</span>
+					</a>
+				</div>
+			</section>
+
+			<section class="site-next" aria-labelledby="next-title">
+				<div>
+					<p class="site-eyebrow">START EXPLORING</p>
+					<h2 id="next-title">Find your way in.</h2>
+				</div>
+				<div class="next-links">
+					  <a href="/wiki/getstart.html"><span>Read the local getting-started guide</span><span aria-hidden="true">&rarr;</span></a>
+					  <a href="https://cloudflare-wiki.saladin510.workers.dev/wiki/main:home"><span>Open the full online Wiki</span><span aria-hidden="true">&nearr;</span></a>
+					  <a href="/software/"><span>Browse software and components</span><span aria-hidden="true">&rarr;</span></a>
+					  <a href="/mail-list/"><span>Find a mailing list</span><span aria-hidden="true">&rarr;</span></a>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<a class="site-brand" href="/">
+				<img src="https://avatars.githubusercontent.com/u/239716078?s=96&v=4" alt="">
+				<span>E-comOS</span>
+			</a>
+			<p>A community-built operating system project.</p>
+			<a href="https://github.com/e-comos">GitHub <span aria-hidden="true">&nearr;</span></a>
+		</footer>
+	</body>
 </html>
