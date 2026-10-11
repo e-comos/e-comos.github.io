@@ -1218,6 +1218,331 @@ body.home-page {
   }
 }
 
+/* Plain document presentation shared by the complete site. */
+html {
+  background: #fff !important;
+  color-scheme: light;
+  scroll-behavior: auto;
+}
+
+body, body.home-page, body.resource-page, body.spec-page {
+  background: #fff !important;
+  color: #111 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.55 !important;
+  margin: 0 auto !important;
+  max-width: 1100px;
+  min-height: 0 !important;
+  padding: 0 20px !important;
+}
+
+body * {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+body a, body a:link, body a:visited,
+.home-page a, .home-page a:link, .home-page a:visited,
+.resource-page a, .resource-page a:link, .resource-page a:visited,
+.spec-page a, .spec-page a:link, .spec-page a:visited {
+  background: transparent !important;
+  border-radius: 0 !important;
+  color: #0645ad !important;
+  font-weight: inherit;
+  text-decoration: underline !important;
+  text-underline-offset: auto !important;
+}
+
+body a:visited {
+  color: #551a8b !important;
+}
+
+body a:hover, body a:active {
+  color: #b00020 !important;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  border: 0 !important;
+  color: #111 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.25 !important;
+  text-transform: none !important;
+}
+
+body h1 { font-size: 2rem !important; }
+body h2 { font-size: 1.5rem !important; }
+body h3 { font-size: 1.2rem !important; }
+body h4 { font-size: 1rem !important; }
+
+body p, body li, body td, body th, body small, body figcaption,
+body summary, body label, body span, body strong {
+  letter-spacing: 0 !important;
+}
+
+body p, body li, body td, body th, body figcaption, body small {
+  color: #111 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 1rem !important;
+  line-height: 1.55 !important;
+}
+
+body header, body footer, body nav, body main, body section, body aside,
+body figure, body .row, body .thirds, body .halves, body .site-hero,
+body .site-hero-copy, body .site-mark, body .site-projects,
+body .site-next, body .section-heading, body .project-list,
+body .project-item, body .resource-intro, body .resource-links,
+body .resource-link, body .resource-section, body .resource-note,
+body .spec-masthead, body .spec-reader, body .spec-contents,
+body .spec-document, body .spec-toolbar, body .spec-footer {
+  animation: none !important;
+  background: transparent !important;
+  border-color: #aaa !important;
+  border-radius: 0 !important;
+  color: #111 !important;
+  float: none !important;
+  height: auto !important;
+  max-width: none;
+  min-height: 0 !important;
+  outline: 0 !important;
+  overflow: visible !important;
+  position: static !important;
+  transform: none !important;
+  width: auto;
+}
+
+body header, body .site-header, body .resource-header, body .spec-header {
+  align-items: baseline !important;
+  border-bottom: 1px solid #888 !important;
+  display: block !important;
+  margin: 0 0 1.5rem !important;
+  padding: 12px 0 !important;
+}
+
+body nav, body .site-nav, body .resource-nav, body .spec-top-nav {
+  display: block !important;
+  margin-top: .5rem !important;
+}
+
+body nav a {
+  display: inline !important;
+  margin-right: 1rem !important;
+  padding: 0 !important;
+}
+
+body .site-brand, body .spec-brand {
+  display: inline !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+}
+
+body img, body .site-mark-image, body .spec-edition {
+  display: none !important;
+}
+
+body .site-hero, body .spec-masthead {
+  display: block !important;
+  margin: 0 0 2rem !important;
+  padding: 0 0 1.5rem !important;
+}
+
+body .site-hero h1, body .spec-masthead h1 {
+  font-size: 2.2rem !important;
+  margin: .25rem 0 .75rem !important;
+  max-width: 760px !important;
+}
+
+body .site-eyebrow, body .site-kicker, body .spec-kicker,
+body .spec-toc-group, body .spec-meta, body .spec-edition-label,
+body .spec-edition-foot {
+  color: #333 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: .82rem !important;
+  font-weight: 700 !important;
+  margin: .75rem 0 .35rem !important;
+  text-transform: none !important;
+}
+
+body .site-eyebrow span, body .spec-kicker span:first-child::before,
+body .site-mark-index, body .site-hero-foot {
+  display: none !important;
+}
+
+body .site-intro, body .spec-summary, body .resource-lead,
+body .section-heading > p:last-child, body .project-copy small,
+body .resource-link-copy small, body .spec-reader-note {
+  color: #111 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 1rem !important;
+  max-width: 760px !important;
+}
+
+body .site-hero h1 em {
+  color: inherit !important;
+  font-style: normal !important;
+}
+
+body .site-actions, body .next-links, body .project-list,
+body .resource-links, body .spec-toc, body .spec-tools {
+  display: block !important;
+  max-height: none !important;
+  padding: 0 !important;
+}
+
+body .button, body .project-item, body .resource-link,
+body .next-links a, body .spec-toc a {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  color: #0645ad !important;
+  display: block !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.55 !important;
+  margin: .35rem 0 !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+  transition: none !important;
+}
+
+body .project-number, body .resource-number, body .project-arrow,
+body .resource-arrow, body .site-nav-cta span, body .site-footer span,
+body .resource-footer span, body .spec-live-dot, body .spec-count {
+  color: #111 !important;
+  display: inline !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 1rem !important;
+  margin-right: .3rem !important;
+}
+
+body .site-projects, body .site-next, body .resource-main,
+body .resource-section, body .resource-note {
+  display: block !important;
+  margin: 1.5rem 0 !important;
+  padding: 0 !important;
+}
+
+body .section-heading h2, body .site-next h2,
+body .resource-intro h1, body .resource-section h2 {
+  font-size: 1.5rem !important;
+  margin: .5rem 0 !important;
+}
+
+body .spec-reader {
+  display: block !important;
+  margin: 1.5rem 0 !important;
+  padding: 0 !important;
+}
+
+body .spec-contents {
+  border: 1px solid #888 !important;
+  margin: 1rem 0 !important;
+  padding: .75rem !important;
+}
+
+body .spec-contents summary {
+  border: 0 !important;
+  cursor: auto !important;
+  display: block !important;
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+}
+
+body .spec-search-label, body .spec-contents input,
+body .spec-no-results, body .spec-toolbar, body .spec-page-number {
+  display: none !important;
+}
+
+body .spec-toc a span {
+  color: inherit !important;
+  font-size: inherit !important;
+  text-align: left !important;
+}
+
+body .spec-document iframe {
+  background: #fff !important;
+  border: 1px solid #888 !important;
+  display: block !important;
+  height: 80vh !important;
+  min-height: 600px !important;
+  width: 100% !important;
+}
+
+body .site-footer, body .resource-footer, body .spec-footer {
+  border-top: 1px solid #888 !important;
+  display: block !important;
+  margin: 2rem 0 0 !important;
+  padding: .75rem 0 !important;
+}
+
+body .site-footer p, body .resource-footer p {
+  display: inline !important;
+  margin: 0 1rem !important;
+}
+
+body .site-footer > a:last-child, body .resource-footer > a:last-child {
+  color: #0645ad !important;
+}
+
+body table, body pre, body blockquote {
+  max-width: 100%;
+}
+
+body pre {
+  background: transparent !important;
+  border: 1px solid #aaa;
+  color: #111 !important;
+  overflow: auto;
+  padding: .75rem !important;
+  white-space: pre-wrap;
+}
+
+body code, body kbd, body pre, body .summary {
+  color: #111 !important;
+  font-family: "Courier New", monospace !important;
+}
+
+body hr {
+  border: 0;
+  border-top: 1px solid #aaa;
+}
+
+@media (max-width: 600px) {
+  body, body.home-page, body.resource-page, body.spec-page {
+    padding: 0 12px !important;
+  }
+
+  body .site-hero h1, body .spec-masthead h1 {
+    font-size: 1.8rem !important;
+  }
+
+  body .spec-document iframe {
+    height: 70vh !important;
+    min-height: 420px !important;
+  }
+}
+
+@media print {
+  body, body.home-page, body.resource-page, body.spec-page {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+  body header nav, body .spec-contents, body .spec-document iframe {
+    display: none !important;
+  }
+
+  body a, body a:visited {
+    color: #111 !important;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .site-hero-copy, .site-mark {
     animation: none;
@@ -1443,5 +1768,253 @@ body.resource-page {
 @media (prefers-reduced-motion: reduce) {
   .resource-link {
     transition: none;
+  }
+}
+
+/* Final overrides keep legacy page rules in a plain document style. */
+body, body.home-page, body.resource-page, body.spec-page {
+  background: #fff !important;
+  color: #111 !important;
+  font: 16px/1.55 Arial, Helvetica, sans-serif !important;
+  margin: 0 auto !important;
+  max-width: 1100px !important;
+  min-height: 0 !important;
+  padding: 0 20px !important;
+}
+
+body a, body a:link, body a:visited,
+body.home-page a, body.home-page a:link, body.home-page a:visited,
+body.resource-page a, body.resource-page a:link, body.resource-page a:visited,
+body.spec-page a, body.spec-page a:link, body.spec-page a:visited {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  color: #0645ad !important;
+  font-weight: 400 !important;
+  text-decoration: underline !important;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  background: transparent !important;
+  border: 0 !important;
+  color: #111 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-style: normal !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+body header, body .site-header, body .site-footer, body .resource-header,
+body .resource-footer, body .spec-header, body .spec-footer {
+  background: transparent !important;
+  border-color: #888 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  color: #111 !important;
+  display: block !important;
+  max-width: none !important;
+  min-height: 0 !important;
+  padding: 12px 0 !important;
+  position: static !important;
+  text-align: left !important;
+}
+
+body nav, body .site-nav, body .resource-nav, body .spec-top-nav {
+  background: transparent !important;
+  display: block !important;
+  margin: .5rem 0 0 !important;
+  padding: 0 !important;
+  position: static !important;
+}
+
+body nav a {
+  display: inline !important;
+  margin: 0 1rem 0 0 !important;
+  padding: 0 !important;
+}
+
+body .site-hero, body .site-projects, body .site-next,
+body .site-hero-copy,
+body .resource-main, body .resource-intro, body .resource-section,
+body .resource-links, body .resource-note, body .spec-masthead,
+body .spec-reader, body .spec-contents, body .spec-document,
+body .spec-toolbar, body .next-links, body .project-list {
+  animation: none !important;
+  background: transparent !important;
+  border-color: #aaa !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  color: #111 !important;
+  display: block !important;
+  float: none !important;
+  height: auto !important;
+  margin: 1rem 0 !important;
+  max-width: none !important;
+  min-height: 0 !important;
+  outline: 0 !important;
+  overflow: visible !important;
+  padding: 0 !important;
+  position: static !important;
+  transform: none !important;
+  width: auto !important;
+}
+
+body .site-hero h1, body .spec-masthead h1,
+body .resource-intro h1, body .section-heading h2,
+body .site-next h2, body .resource-section h2 {
+  color: #111 !important;
+  font-size: 1.8rem !important;
+  line-height: 1.25 !important;
+  margin: .5rem 0 !important;
+  max-width: 760px !important;
+}
+
+body .site-eyebrow, body .spec-kicker, body .spec-meta,
+body .spec-toc-group {
+  color: #333 !important;
+  font: 700 .9rem/1.4 Arial, Helvetica, sans-serif !important;
+  margin: .75rem 0 .3rem !important;
+  text-transform: none !important;
+}
+
+body .site-intro, body .spec-summary, body .resource-lead,
+body .site-tagline,
+body .section-heading > p:last-child, body .project-copy small,
+body .resource-link-copy small, body .spec-reader-note,
+body .resource-section p {
+  color: #111 !important;
+  font: 16px/1.55 Arial, Helvetica, sans-serif !important;
+  max-width: 760px !important;
+}
+
+body .site-actions, body .project-item, body .resource-link,
+body .next-links a, body .spec-toc a, body .spec-tools a,
+body .button {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  color: #0645ad !important;
+  display: block !important;
+  font: 16px/1.55 Arial, Helvetica, sans-serif !important;
+  margin: .35rem 0 !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+  transition: none !important;
+}
+
+body .project-number, body .project-arrow, body .resource-number,
+body .resource-arrow, body .site-hero-foot, body .site-mark-index,
+body .spec-live-dot, body .spec-count, body .spec-edition,
+body .site-mark-image, body img {
+  display: none !important;
+}
+
+body .site-mark figcaption {
+  border: 0 !important;
+  color: #111 !important;
+  display: block !important;
+  padding: 0 !important;
+}
+
+body .site-mark figcaption span {
+  color: inherit !important;
+  display: none !important;
+}
+
+body .site-hero h1 em {
+  color: inherit !important;
+  font-style: normal !important;
+}
+
+body .spec-contents {
+  border: 1px solid #888 !important;
+  padding: .75rem !important;
+}
+
+body .spec-contents h2 {
+  font-size: 1.25rem !important;
+  margin: 0 0 .5rem !important;
+}
+
+body .spec-search-label, body .spec-contents input,
+body .spec-no-results, body .spec-page-number {
+  display: none !important;
+}
+
+body .spec-toc {
+  display: block !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+body .spec-kicker {
+  display: block !important;
+}
+
+body .spec-meta span {
+  display: inline-block !important;
+  margin-right: 1em !important;
+}
+
+body .spec-toc a > span {
+  margin-right: .4em !important;
+}
+
+body .spec-document iframe {
+  background: #fff !important;
+  border: 1px solid #888 !important;
+  display: block !important;
+  height: 80vh !important;
+  min-height: 500px !important;
+  width: 100% !important;
+}
+
+body .site-footer p, body .resource-footer p {
+  color: #111 !important;
+  display: inline !important;
+  margin: 0 1rem !important;
+}
+
+@media (min-width: 900px) {
+  body .spec-reader {
+    align-items: start !important;
+    display: grid !important;
+    gap: 20px !important;
+    grid-template-columns: minmax(210px, 260px) minmax(0, 1fr) !important;
+  }
+
+  body .spec-contents {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 600px) {
+  body, body.home-page, body.resource-page, body.spec-page {
+    padding: 0 12px !important;
+  }
+
+  body .site-hero h1, body .spec-masthead h1,
+  body .resource-intro h1, body .section-heading h2,
+  body .site-next h2 {
+    font-size: 1.55rem !important;
+  }
+
+  body .spec-document iframe {
+    height: 70vh !important;
+    min-height: 400px !important;
+  }
+}
+
+@media print {
+  body, body.home-page, body.resource-page, body.spec-page {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+  body .spec-contents, body .spec-document iframe, body nav {
+    display: none !important;
   }
 }
